@@ -1357,6 +1357,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 439938008935970937, guid: 361ac5208a89cef4792ffc625a538600, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 439938008935970937, guid: 361ac5208a89cef4792ffc625a538600, type: 3}
       propertyPath: m_SpriteTileMode
       value: 1
       objectReference: {fileID: 0}
@@ -8363,6 +8367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassSmall
       objectReference: {fileID: 0}
+    - target: {fileID: 447953936082405494, guid: 885710850401dc14093b26e32c264f90, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 6643916780261410770, guid: 885710850401dc14093b26e32c264f90, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.6997752
@@ -8427,6 +8435,10 @@ PrefabInstance:
     - target: {fileID: 439938008935970937, guid: 361ac5208a89cef4792ffc625a538600, type: 3}
       propertyPath: m_DrawMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 439938008935970937, guid: 361ac5208a89cef4792ffc625a538600, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 439938008935970937, guid: 361ac5208a89cef4792ffc625a538600, type: 3}
       propertyPath: m_SpriteTileMode
@@ -8539,6 +8551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemySprite
       objectReference: {fileID: 0}
+    - target: {fileID: 8161800744478818589, guid: a0e3c9a13786ea249a5eb877cd810112, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8552,6 +8568,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6489664539032155539, guid: b0b21fa4f702d954a873794e57137588, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 6683468545633185244, guid: b0b21fa4f702d954a873794e57137588, type: 3}
       propertyPath: m_Name
       value: TreeBig3
@@ -8612,6 +8632,10 @@ PrefabInstance:
     - target: {fileID: 3330866741139559198, guid: 39caae768c5f9dd4b9a80bc7f0f0f2c7, type: 3}
       propertyPath: m_Name
       value: TreeBig2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5283106943941584465, guid: 39caae768c5f9dd4b9a80bc7f0f0f2c7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 6607570483534051752, guid: 39caae768c5f9dd4b9a80bc7f0f0f2c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8685,6 +8709,10 @@ PrefabInstance:
     - target: {fileID: 4928156853487357042, guid: ed71d5138c74f48418e899ee941bde8f, type: 3}
       propertyPath: m_Name
       value: Jambi
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348470929771687169, guid: ed71d5138c74f48418e899ee941bde8f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7294330677837475779, guid: ed71d5138c74f48418e899ee941bde8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8789,6 +8817,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7623146516628514173, guid: 2519ab38e32eddf4aaa2164c431fe581, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8802,6 +8834,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2396008918101046572, guid: 278e65f5c0320fe41bda59e430a3ca09, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3741978646184735733, guid: 278e65f5c0320fe41bda59e430a3ca09, type: 3}
       propertyPath: m_Name
       value: CollectibleHealth
@@ -8903,6 +8939,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2191476840048868979, guid: f441471963edb404c9c126694b246de6, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5391324151600343396, guid: f441471963edb404c9c126694b246de6, type: 3}
       propertyPath: m_Name
       value: TreeLittle
@@ -8960,6 +9000,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2745843575819408438, guid: 97f48e7a72a0e134890734b08ec1e97c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7064653512251685024, guid: 97f48e7a72a0e134890734b08ec1e97c, type: 3}
       propertyPath: hitSound
       value: 
@@ -8996,6 +9040,10 @@ PrefabInstance:
     - target: {fileID: 83762275455780042, guid: a37baf86a76e98a4bbf2ee964a33a77f, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 83762275455780042, guid: a37baf86a76e98a4bbf2ee964a33a77f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 507479392316101543, guid: a37baf86a76e98a4bbf2ee964a33a77f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9037,6 +9085,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5283749011406259911, guid: a37baf86a76e98a4bbf2ee964a33a77f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8798431
+      objectReference: {fileID: 0}
+    - target: {fileID: 5283749011406259911, guid: a37baf86a76e98a4bbf2ee964a33a77f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.50237656
+      objectReference: {fileID: 0}
+    - target: {fileID: 5283749011406259911, guid: a37baf86a76e98a4bbf2ee964a33a77f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.21442634
+      objectReference: {fileID: 0}
+    - target: {fileID: 5283749011406259911, guid: a37baf86a76e98a4bbf2ee964a33a77f, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.24092984
+      objectReference: {fileID: 0}
     - target: {fileID: 7191676457018357074, guid: a37baf86a76e98a4bbf2ee964a33a77f, type: 3}
       propertyPath: m_Name
       value: MetalCube
@@ -9057,6 +9121,10 @@ PrefabInstance:
     - target: {fileID: 1623646827807827258, guid: 33ef336d688dd41489c421a12257942c, type: 3}
       propertyPath: m_Name
       value: TreeBig1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635427824601667112, guid: 33ef336d688dd41489c421a12257942c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 2839353318730323883, guid: 33ef336d688dd41489c421a12257942c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9212,6 +9280,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8174042800819344513, guid: 2134146208acedc49bac1f4ef71cbc68, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9268,6 +9340,10 @@ PrefabInstance:
     - target: {fileID: 8122026047402784014, guid: aa6c4683159e1574fb2254ee0a4a800d, type: 3}
       propertyPath: m_Name
       value: TelegraphPost
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113245172603767607, guid: aa6c4683159e1574fb2254ee0a4a800d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 98
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
