@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 1115969224515368387}
   - component: {fileID: 2890679773350929519}
   - component: {fileID: 6485674958936012363}
-  - component: {fileID: 5202062731148601027}
   - component: {fileID: 3962421040232771895}
   m_Layer: 0
   m_Name: EnemySprite
@@ -32,11 +31,11 @@ Transform:
   m_GameObject: {fileID: 6554488917124733782}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.2880826, y: -3.72, z: 0}
+  m_LocalPosition: {x: 4.2880826, y: -1.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6491522063723632954}
+  - {fileID: 7705316826429653917}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8161800744478818589
@@ -123,7 +122,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03491342, y: -0.2388413}
+  m_Offset: {x: -0.028122783, y: -0.24052286}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -134,7 +133,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2375267, y: 2.0823174}
+  m_Size: {x: 1.2419679, y: 1.9606493}
   m_EdgeRadius: 0
 --- !u!50 &1115969224515368387
 Rigidbody2D:
@@ -175,10 +174,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6fd7fcf720dfc141a70bf76769fab40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 1
   vertical: 0
   changeTime: 3
-  SmokeEffect: {fileID: 5639474472167060988}
+  smokeEffect: {fileID: 9131958773728096091}
 --- !u!95 &6485674958936012363
 Animator:
   serializedVersion: 5
@@ -200,22 +199,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5202062731148601027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6554488917124733782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6fd7fcf720dfc141a70bf76769fab40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  vertical: 0
-  changeTime: 3
-  SmokeEffect: {fileID: 5639474472167060988}
 --- !u!82 &3962421040232771895
 AudioSource:
   m_ObjectHideFlags: 0
@@ -236,7 +219,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.2963271
   MaxDistance: 10
   Pan2D: 0
   rolloffMode: 0
@@ -312,7 +295,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &1923624421282253261
+--- !u!1001 &3047347054004015978
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -326,7 +309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4658009354980561143, guid: ecdacfa47f5296f4f90629a9bd8e2aab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.61
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4658009354980561143, guid: ecdacfa47f5296f4f90629a9bd8e2aab, type: 3}
       propertyPath: m_LocalPosition.z
@@ -369,13 +352,13 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecdacfa47f5296f4f90629a9bd8e2aab, type: 3}
---- !u!198 &5639474472167060988 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 6120785652417903665, guid: ecdacfa47f5296f4f90629a9bd8e2aab, type: 3}
-  m_PrefabInstance: {fileID: 1923624421282253261}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &6491522063723632954 stripped
+--- !u!4 &7705316826429653917 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4658009354980561143, guid: ecdacfa47f5296f4f90629a9bd8e2aab, type: 3}
-  m_PrefabInstance: {fileID: 1923624421282253261}
+  m_PrefabInstance: {fileID: 3047347054004015978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &9131958773728096091 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 6120785652417903665, guid: ecdacfa47f5296f4f90629a9bd8e2aab, type: 3}
+  m_PrefabInstance: {fileID: 3047347054004015978}
   m_PrefabAsset: {fileID: 0}

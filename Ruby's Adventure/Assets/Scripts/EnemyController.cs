@@ -8,7 +8,7 @@ public class EnemyController : MonoBehaviour
     public bool vertical;
     public float changeTime = 3.0f;
 
-    public ParticleSystem SmokeEffect;
+    public ParticleSystem smokeEffect;
 
     Rigidbody2D rigidbody2D;
     float timer;
@@ -25,7 +25,7 @@ public class EnemyController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-void Update()
+    void Update()
     {
         //remember ! inverse the test, so if broken is true !broken will be false and return won’t be executed.
         if(!broken)
@@ -42,7 +42,7 @@ void Update()
         }
     }
     
-  void FixedUpdate()
+    void FixedUpdate()
     {
         //remember ! inverse the test, so if broken is true !broken will be false and return won’t be executed.
         if(!broken)
@@ -68,7 +68,7 @@ void Update()
         rigidbody2D.MovePosition(position);
     }
     
- void OnCollisionEnter2D(Collision2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         RubyController player = other.gameObject.GetComponent<RubyController >();
 
@@ -86,6 +86,6 @@ void Update()
         //optional if you added the fixed animation
         animator.SetTrigger("Fixed");
 
-        SmokeEffect.Stop();
+        smokeEffect.Stop();
     }
 }
