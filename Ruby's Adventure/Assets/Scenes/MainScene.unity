@@ -815,6 +815,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1540926095352535194, guid: a0e3c9a13786ea249a5eb877cd810112, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.975
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540926095352535194, guid: a0e3c9a13786ea249a5eb877cd810112, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.975
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540926095352535194, guid: a0e3c9a13786ea249a5eb877cd810112, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -858,6 +866,10 @@ PrefabInstance:
       propertyPath: speed
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3962421040232771895, guid: a0e3c9a13786ea249a5eb877cd810112, type: 3}
+      propertyPath: MaxDistance
+      value: 1.2963271
+      objectReference: {fileID: 0}
     - target: {fileID: 6554488917124733782, guid: a0e3c9a13786ea249a5eb877cd810112, type: 3}
       propertyPath: m_Name
       value: EnemySprite
@@ -893,6 +905,10 @@ PrefabInstance:
     - target: {fileID: 7705316826429653917, guid: a0e3c9a13786ea249a5eb877cd810112, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8161800744478818589, guid: a0e3c9a13786ea249a5eb877cd810112, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1287,7 +1303,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1433539827
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1428,7 +1444,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Hey! Help me fix all of those broken robots!"'
+  m_text: Hey Ruby! Help me fix all of those broken robots.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1706,7 +1722,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8f3ea86ce27c31c4f90090421f1d9251, type: 2}
+  - {fileID: 2100000, guid: 14a05f2d752dc8f418dfac5f7462b933, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8719,6 +8735,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.40419918
       objectReference: {fileID: 0}
+    - target: {fileID: 3085318252493449124, guid: ed71d5138c74f48418e899ee941bde8f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4928156853487357042, guid: ed71d5138c74f48418e899ee941bde8f, type: 3}
       propertyPath: m_Name
       value: Jambi
@@ -8768,9 +8788,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9144608302727443075, guid: ed71d5138c74f48418e899ee941bde8f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 358221422}
+    - target: {fileID: 9144608302727443075, guid: ed71d5138c74f48418e899ee941bde8f, type: 3}
       propertyPath: dialogBox
       value: 
       objectReference: {fileID: 1433539826}
+    - target: {fileID: 9144608302727443075, guid: ed71d5138c74f48418e899ee941bde8f, type: 3}
+      propertyPath: displayTime
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2239253538015596800, guid: ed71d5138c74f48418e899ee941bde8f, type: 3}
@@ -9015,6 +9043,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1707731812936753621, guid: 97f48e7a72a0e134890734b08ec1e97c, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2745843575819408438, guid: 97f48e7a72a0e134890734b08ec1e97c, type: 3}
       propertyPath: m_SortingOrder
       value: 100
@@ -9027,6 +9059,14 @@ PrefabInstance:
       propertyPath: throwSound
       value: 
       objectReference: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
+    - target: {fileID: 7064653512251685024, guid: 97f48e7a72a0e134890734b08ec1e97c, type: 3}
+      propertyPath: uiHealthBar
+      value: 
+      objectReference: {fileID: 1393550524}
+    - target: {fileID: 7064653512251685024, guid: 97f48e7a72a0e134890734b08ec1e97c, type: 3}
+      propertyPath: timeInvincible
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8552273525193476085, guid: 97f48e7a72a0e134890734b08ec1e97c, type: 3}
       propertyPath: m_Name
       value: RubySprite
